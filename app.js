@@ -1,7 +1,7 @@
 var profile = require('./profile');
 // console.dir(process.argv);
 
-// Skip the first to items in the argv array
+// Skip the first two items in the argv array
 var users = process.argv.slice(2);
 
 // Grab the user(s) information
